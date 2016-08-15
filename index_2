@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>CK | Home </title>
+		<link rel="stylesheet" type="text/css" href="index.css">
+</head>
+
+  <body>
+		<span>
+			<a href="portfolio.html"><img src="Images/Art/IMG_1159.JPG"/></a>
+</span>
+
+</body>
+</html>

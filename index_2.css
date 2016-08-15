@@ -1,0 +1,59 @@
+body{
+  background-color: black;
+  margin: 0px; /*gets rid of automatic side border*/
+
+}
+
+#left{
+  display: block;
+  float: left;
+  margin-left: auto;
+  margin-right: auto;
+  /*padding-bottom: 100%; extends orange color to any height you want*/
+  width: 50%;
+  color: black;
+
+}
+
+#right{
+  display: inline; /*allows second div to sit next to first div, not below.*/
+  padding-bottom: 75%;
+  padding-left: 50%;
+  width: 50%;
+  background-color: white;
+  color: black;
+  position: relative;
+  height: 0px;
+}
+
+#name_div{
+  /*position: absolute;
+  position: relative;
+  /*text-align: center;  /*horizontally align text*/
+  font-family: 'Futura'; /*put font choice in <div>, not <p>*/
+  padding-top: 50%;
+  /*padding-left: 100%; why does padding-left affect the width of the div in addition to the left padding??*/
+  display: table-cell;
+  vertical-align: middle;
+  margin-left: 60px;
+}
+
+p{
+
+
+}
+
+img{
+  width: 100%; /* makes the image fit within the div, not exceed the outside border of div*/
+}
+
+/*#img{
+  position: absolute;
+   top: 0;
+   left: 0;
+   right: 0;
+   bottom: 0;
+   background-image: url("Website/Images/Art/IMG83");
+   background-repeat: no-repeat;
+   background-size: contain;
+}
